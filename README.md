@@ -1,2 +1,2 @@
 # SliceIt3D
-Trò chơi cắt hình khối theo yêu cầu
+Trò chơi cắt vật thể theo tỉ lệ yêu cầu
