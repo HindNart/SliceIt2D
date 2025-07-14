@@ -73,8 +73,8 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator HandleCutPerformed(float actualRatio)
     {
-        yield return UIManager.Instance.UpdateCutRatioUI(actualRatio, targetRatio);
         cutAttempts--;
+        yield return UIManager.Instance.UpdateCutRatioUI(actualRatio, targetRatio);
         bool isSuccess = Mathf.Abs(actualRatio - targetRatio) <= 0.1f;
         if (isSuccess)
         {
